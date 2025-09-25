@@ -1,6 +1,4 @@
-import java.util.Random;
 import java.util.Scanner;
-
 public class qnpicker {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
@@ -10,11 +8,10 @@ public class qnpicker {
             
             String[] question = new String[n];
             
-            for (int i = 1; i <= n;i++){
-                System.out.println("Enter the question "+i);
+            for (int i = 0; i < n;i++){
+                System.out.println("Enter the question "+(i + 1));
                 question[i] = sc.nextLine();
             }
-            Random r = new Random();
             int index = (int)(Math.random() * n);
             System.out.println("Random question : "+question[index]);
         }
