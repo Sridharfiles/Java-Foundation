@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class InvalidOperationException extends Exception {
     public InvalidOperationException(String message) {
         super(message);
@@ -15,13 +14,10 @@ public class task1 {
         System.out.println("Enter a number b : ");
         int b =sc.nextInt();
         sc.nextLine();
-
         System.out.println("Enter the operation : ");
         String ope = sc.nextLine();
         char o = ope.charAt(0);
-        
         sc.close();
-        
             switch (o) {
                 case '+':
                     System.out.println(""+(a + b));

@@ -8,7 +8,7 @@ public class mathfunctions {
         System.out.println("Cube : "+Math.pow(n,3));
         System.out.println("ceil : "+Math.ceil(n));
         System.out.println("Floor : "+Math.floor(n));
-       // System.out.println("Random : "+n = (int)(Math.random() * 100 + 1));
+       // System.out.println("Random : "+n = (int)(Math.random()?*?100 + 1));
         
 
        int max = 100;

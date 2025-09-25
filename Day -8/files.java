@@ -3,7 +3,6 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-
 public class files {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,7 +15,6 @@ public class files {
         );
         int n = sc.nextInt();
         sc.nextLine();
-
         switch (n) {
             case 1:
                 try {
@@ -78,7 +76,6 @@ public class files {
                     e.printStackTrace();
                 }
                 break;
-
             case 5:
                 System.out.println("Enter a file name : ");
                 String filename = sc.nextLine(); 
@@ -88,13 +85,10 @@ public class files {
                 } else {
                     System.out.println("Failed to delete the file.");
                 }
-            
             sc.close();
             break;
-                
             default:
                 throw new AssertionError();
-            
         }
     }
 }

@@ -5,9 +5,7 @@ public class qnpicker {
             System.out.println("Enter the no.of questions :");
             int n = sc.nextInt();
             sc.nextLine();
-            
             String[] question = new String[n];
-            
             for (int i = 0; i < n;i++){
                 System.out.println("Enter the question "+(i + 1));
                 question[i] = sc.nextLine();
