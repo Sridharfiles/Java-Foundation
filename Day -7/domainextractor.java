@@ -1,11 +1,9 @@
 import java.util.Scanner;
-
 public class domainextractor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a Email : ");
         String mail = sc.nextLine();
-
         if (mail.contains("@gmail.com")){
             System.out.println("Domain is Gmail.com");
         } else if (mail.contains("@yahoo.com")){
